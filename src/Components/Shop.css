@@ -1,0 +1,79 @@
+.ShopPage1 {
+    margin-top: 100px;
+}
+
+.Headtext {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.Headtext h2 {
+    font-size: 40px;
+}
+
+.Headtext p {
+    font-size: 15px;
+}
+
+.searchBar {
+    margin: auto;
+    width: max-content;
+    position: relative;
+}
+
+.searchBar input {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+    border: 2px solid rgb(130, 139, 178);
+    border-radius: 5px;
+}
+.searchimg{
+position: absolute;
+top: 8px;
+right: 10px;
+filter: invert(1);
+width: 25px;
+height: 25px;
+cursor: pointer;
+}
+.shopPage {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    padding-bottom: 200px;
+}
+
+.one h3 {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.dammy {
+    margin-left: 20px;
+    text-decoration: line-through;
+    color: rgb(197, 196, 196);
+}
+
+.imgone {
+    margin-top: 17px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: rgb(130, 139, 178);
+    display: flex;
+    cursor: pointer;
+}
+
+.imgone img {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
