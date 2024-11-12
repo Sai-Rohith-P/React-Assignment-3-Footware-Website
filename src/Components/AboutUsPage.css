@@ -45,7 +45,10 @@
         align-items: center;
     }
     .img img{
-        width: 500px;
+        width: 400px;
+    }
+    .abouttext p{
+        width: 380px;
     }
 
 }

@@ -24,3 +24,9 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media screen and (max-width:576px) {
+    .Navbar{
+        width: 90%;
+    }
+}

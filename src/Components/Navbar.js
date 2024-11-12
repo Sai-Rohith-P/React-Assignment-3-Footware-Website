@@ -36,7 +36,7 @@ function Navbars() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto className='d-flex uldiv mt-2 me-5">
               <NavLink to="Home" className='uldiv1'>Home</NavLink>
-              <NavLink to="Shop" className='uldiv1'>Link</NavLink>
+              <NavLink to="Shop" className='uldiv1'>Shop</NavLink>
               <NavLink to="About" className='uldiv1'>About</NavLink>
               <NavLink to="Contact" className='uldiv1'>Contact</NavLink>
             </Nav>

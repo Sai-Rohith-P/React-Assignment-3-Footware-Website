@@ -77,3 +77,9 @@ cursor: pointer;
     width: 20px;
     height: 20px;
 }
+
+@media screen and (max-width:576px) {
+    .Headtext {
+        width: 75%;
+    }
+}
