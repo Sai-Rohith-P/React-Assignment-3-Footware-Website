@@ -77,7 +77,18 @@ cursor: pointer;
     width: 20px;
     height: 20px;
 }
-
+.addtoCart,.addtoCarted{
+    margin-top: 26px;
+    padding: 6px 11px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(130, 139, 178);
+    font-size: 16px;
+    color: white;
+}
+.addtoCarted{
+background-color: rgb(255, 82, 47) !important;
+}
 @media screen and (max-width:576px) {
     .Headtext {
         width: 75%;

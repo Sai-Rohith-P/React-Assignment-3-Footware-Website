@@ -1,0 +1,131 @@
+.cartPage{
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around;
+}
+.cartlistsdiv{
+    width: 70%;
+}
+.cartlistamount{
+    width: 400px;
+    height: 570px;
+    background-color: rgb(91, 95, 109);
+    border-radius: 5px;
+}
+.cartoneee{
+    width: 100%;
+    height: max-content;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 13px;
+    display: flex;
+    align-items: start;
+}
+.cartsmimg img{
+    width: 130px;
+    height:130px;
+}
+.productName h4{
+
+    width: 160px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+.ProductCost p{
+    margin-left: 60px;
+    font-size: 17px;
+}
+.deletebtnnn{
+    margin-left: 110px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.count{
+    width: 130px;
+    margin-left: 110px;
+    height:35px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid rgb(88, 88, 88);
+}
+.lastbtn{
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(62, 62, 255);
+    border: none;
+}
+
+@media screen and (max-width:992px) {
+    .cartlistamount{
+        width: 100%;
+    }
+    .cartlistsdiv{
+        width: 100%;
+    }
+    .cartPage{
+        width: 100%;
+        gap: 50px;
+    }
+    .productName h4{
+        
+    width: max-content;
+        margin-left: 30px;
+    }
+    .ProductCost p{
+        margin-left: 30px;
+    }
+    .deletebtnnn{
+        margin-left: 40px;
+    }
+    .count{
+        margin-left: 40px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .count{
+        width: 90px;
+    }
+    .cartsmimg img{
+        width: 100px;
+        height:100px;
+    }
+    .nmprice{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cartlistamount{
+        width: 100%;
+    }
+    .cartlistsdiv{
+        width: 100%;
+    }
+    .cartPage{
+        width: 100%;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .productName h4{     
+    width: max-content;
+        margin-left: 10px;
+    }
+    .ProductCost p{
+        margin-left: 20px;
+    }
+    .deletebtnnn{
+        margin-left: 20px;
+    }
+    .count{
+        margin-left: 20px;
+    }
+    .cartoneee{
+        flex-wrap: wrap;
+    }
+}
