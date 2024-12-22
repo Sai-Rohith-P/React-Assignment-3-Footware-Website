@@ -9,7 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const MyContext = React.createContext();
 export const MyContextsm = React.createContext();
 export const Cartlists = React.createContext();
-export const ProductAmounts = React.createContext()
+export const ProductAmounts = React.createContext();
+
+export const EachProductItem = React.createContext();
+
 // Reducer Function
 const CartReduce = (state, action) => {
   switch (action.type) {
@@ -28,17 +31,21 @@ function AppComponents() {
 
   const [cartlists, setCortLists] = useState([]);
 
-  const [costAmount,setCostAmount] = useState(0)
+  const [costAmount, setCostAmount] = useState(0)
+
+  const [EachItem, setEachItem] = useState("");
 
   return (
     <BrowserRouter>
       <MyContext.Provider value={{ state, dispatch }}>
         <MyContextsm.Provider value={{ statesm, dispatchsm }}>
-        <Cartlists.Provider value={{ cartlists, setCortLists }}>
-          <ProductAmounts.Provider value={{costAmount,setCostAmount}}>
-          <App />
-          </ProductAmounts.Provider>
-      </Cartlists.Provider>
+          <Cartlists.Provider value={{ cartlists, setCortLists }}>
+            <ProductAmounts.Provider value={{ costAmount, setCostAmount }}>
+              <EachProductItem.Provider value={{ EachItem, setEachItem }} >
+                <App />
+              </EachProductItem.Provider>
+            </ProductAmounts.Provider>
+          </Cartlists.Provider>
         </MyContextsm.Provider>
       </MyContext.Provider>
     </BrowserRouter>

@@ -1,0 +1,12 @@
+
+.onee{
+    /* border: 2px solid green; */
+    padding: 16px;
+    padding-right:30px;
+}
+.imgblock1 img{
+    width: 200px;
+    height: 170px;
+    margin-bottom: 20px;
+    /* border: 2px solid red; */
+}

@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.dayOffer{
+    width: 100%;
+    /* height: 700px; */
+    margin-bottom: 120px;
+    display: flex;
+    margin-left: auto;
+    /* border: 2px solid red; */
+}
+
+.rightside,.leftside{
+    width: 50%;
+    height: 700px;
+    /* border: 2px solid red; */
+}
+.leftside{
+    position: relative;
+}
+.leftside img{
+    width: 100%;
+    height: 700px;
+}
+.innercontent{
+    position: absolute;
+    top: 22%;
+    left: 16%;
+    z-index: 1;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.deal{
+    text-align: center;
+    font-size: 37px;
+    width: 400px;
+    color: white;
+   
+}
+.dealp{
+    width: 400px;
+    /* background-color: red; */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.leftside{
+    position: relative;
+}
+.leftside::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 1;
+}
+.timingBox{
+    width: 97%;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timebox{
+    width: 97%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+}
+.time{
+    width: 93px;
+    height: 70px;
+    border: none;
+    border-right: 1px solid rgb(173, 173, 173);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time h1{
+    margin-top: 10px;
+    font-size: 34px;
+    font-weight: 600;
+}
+.time p{
+    margin-top: -4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(107, 107, 107);
+}
+.timelast{
+    border: none;
+}
+.innercontent button,.divcenter button{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    padding: 12px 23px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 142, 0);
+}
+
+.rightside{
+    background-color: rgb(244, 244, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px !important;
+}
+.sideright{
+    width: max-content;
+    /* height: 700px; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sideright p{
+    margin-bottom:-4px ;
+    font-weight: 600;
+}
+.rightarrow,.leftarrow{
+    height: 40px;
+    width: 40px !important;
+    /* filter: invert(53%) sepia(81%) saturate(1000%) hue-rotate(-25deg) brightness(1.05); */
+}
+.divcenter{
+    width: 400px;
+    height: 500px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divcenter img{
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid yellow; */
+ 
+}
+.divcenter p{
+    margin-top: 10px;
+    font-size: 19px;
+    margin-bottom: 19px;
+}
+.dummy{
+    color: rgb(150, 150, 150);
+    margin-left: 18px;
+    text-decoration: line-through;
+}
+.divcenter h3{
+    text-align: center;
+    text-transform: uppercase;
+    width: 350px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:992px) {
+    .dayOffer{
+        flex-direction: column;
+    }
+    .rightside,.leftside{
+        width: 100%;
+    }
+    .innercontent{
+        top: 28%;
+        left: 24%;
+    }
+}
+@media screen and (max-width:768px) {
+    .innercontent{
+        left: 15%;
+    }
+}
+@media screen and (max-width:576px) {
+    .innercontent{
+        left: 5%;
+    }
+    
+.rightside{
+    gap: 0px !important;
+}
+}
+@media screen and (max-width:470px) {
+    .innercontent{
+        left: 1%;
+    }
+    .timingBox{
+        width: 90%;
+    }
+    .divcenter,.deal{
+        width: 300px;
+    }
+    .innercontent{
+        /* border: 2px solid black; */
+        position: absolute;
+        top: 25%;
+        left: 2%;
+        z-index: 1;
+        width: 420px;
+    }
+}
+@media screen and (max-width:415px) {
+    .innercontent{
+        border: 2px solid black;
+        position: absolute;
+        top: 25%;
+        left: 2%;
+        z-index: 1;
+        width: 340px;
+    }
+}

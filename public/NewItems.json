@@ -1,0 +1,114 @@
+[
+    {
+        "id": 12,
+        "name": "BRUTON",
+        "img": "https://m.media-amazon.com/images/I/61LJk07g5rL._AC_UL480_FMwebp_QL65_.jpg",
+        "price": 299,
+        "dummyPrice": "1250"
+    },
+    {
+        "id": 13,
+        "name": "TARZAN-11",
+        "img": "https://m.media-amazon.com/images/I/71cflgAolqL._AC_UL480_FMwebp_QL65_.jpg",
+        "price": 299,
+        "dummyPrice": "1250"
+    },
+    {
+        "id": 14,
+        "name": "BRUTON",
+        "img": "https://m.media-amazon.com/images/I/71f3BmjCwtL._AC_UL480_FMwebp_QL65_.jpg",
+        "price": 499,
+        "dummyPrice": "750"
+    },
+    {
+        "id": 15,
+        "name": "Mens Oxyfit",
+        "img": "https://m.media-amazon.com/images/I/61ePa5fEKnL._AC_UL480_FMwebp_QL65_.jpg",
+        "price": 699,
+        "dummyPrice": "750"
+    },
+    {
+        "id": 16,
+        "name": "Bata",
+        "img": "https://m.media-amazon.com/images/I/514N4bUR79L._AC_UL480_FMwebp_QL65_.jpg",
+        "price": 1299,
+        "dummyPrice": "1750"
+    },
+    {
+        "id": 17,
+        "name": "Bata",
+        "img": "https://m.media-amazon.com/images/I/71rYxtbE8SS._AC_UL480_FMwebp_QL65_.jpg",
+        "price": 999,
+        "dummyPrice": "1100"
+    },
+    {
+        "id": 18,
+        "name": "Mens Oxyfit",
+        "img": "https://m.media-amazon.com/images/I/61ePa5fEKnL._AC_UL480_FMwebp_QL65_.jpg",
+        "price": 399,
+        "dummyPrice": "550"
+    },
+    {
+        "id": 19,
+        "name": "Orthopedic & Diabetic Shoe",
+        "img": "https://m.media-amazon.com/images/I/51iIP6zpCIL._AC_UL480_FMwebp_QL65_.jpg",
+        "price": 699,
+        "dummyPrice": "790"
+    },
+    {
+        "id": 20,
+        "name": "ASIAN Men's TARZAN-04",
+        "img": "https://images-eu.ssl-images-amazon.com/images/I/71dGrejh08L._AC_UL165_SR165,165_.jpg",
+        "price": 699,
+        "dummyPrice": "850"
+    },
+    {
+        "id": 21,
+        "name": "ASIAN Men's White",
+        "img": "https://images-eu.ssl-images-amazon.com/images/I/71YcUEwQ1XL._AC_UL165_SR165,165_.jpg",
+        "price": 699,
+        "dummyPrice": "790"
+    },
+    {
+        "id": 22,
+        "name": "ASIAN Carnival-02 Men's",
+        "img": "https://images-eu.ssl-images-amazon.com/images/I/71N6mH2rA4L._AC_UL165_SR165,165_.jpg",
+        "price": 399,
+        "dummyPrice": "550"
+    },
+    {
+        "id": 23,
+        "name": "BRUTON Stylish Sneakers",
+        "img": "https://images-eu.ssl-images-amazon.com/images/I/71DHKbJfG0L._AC_UL165_SR165,165_.jpg",
+        "price": 699,
+        "dummyPrice": "790"
+    },
+    {
+        "id": 24,
+        "name": "Ankle Boots Formal Shoes",
+        "img": "https://m.media-amazon.com/images/I/41R099BZJdL._AC_UF480,480_SR480,480_.jpg",
+        "price": 499,
+        "dummyPrice": "890"
+    },
+    {
+        "id": 25,
+        "name": "Formal Derby Shoes for Men Black",
+        "img": "https://m.media-amazon.com/images/I/41q5ZKLiuQL._AC_UF480,480_SR480,480_.jpg",
+        "price": 799,
+        "dummyPrice": "1090"
+    },
+    {
+        "id": 26,
+        "name": "Centrino Black Formal",
+        "img": "https://m.media-amazon.com/images/I/41QI9SLZ5SL._AC_UF480,480_SR480,480_.jpg",
+        "price": 459,
+        "dummyPrice": "730"
+    },
+    {
+        "id": 27,
+        "name": "Oxford Patent Leather",
+        "img": "https://m.media-amazon.com/images/I/31eaxGvkJSL._AC_UF480,480_SR480,480_.jpg",
+        "price": 699,
+        "dummyPrice": "790"
+    }
+]

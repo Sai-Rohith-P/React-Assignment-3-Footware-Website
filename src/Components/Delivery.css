@@ -1,0 +1,161 @@
+.delivery{
+    width: 100%;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+.divdelivery{
+    width: 80%;
+    box-shadow: 0px 1px 18px rgba(135, 135, 135, 0.511);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.divone{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.divone img{
+    width: 45px;
+    height: 45px;
+    filter: invert(0.8);
+}
+.divone h4{
+    font-size: 18px;
+}
+.divone p{
+    margin-top: -1px;
+    font-size: 14px;
+    color: grey;
+}
+.deliveryimages{
+    margin-top: 90px !important;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.leftdivimg{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.rightdivimg{
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+.rightdivimg img{
+    height: 428px;
+    width: 95%;
+    cursor: pointer;
+}
+.topdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.topdiv1,.topdiv2,.rightdivimg{
+    position: relative;
+}
+.topdiv1 p,.topdiv2 p,.rightdivimg p{
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 29%;
+    color: White;
+    font-weight: 500;
+    z-index: 2;
+}
+.topdiv2 p{
+    top: 35%;
+    width: 150px;
+    left: 20%;
+}
+.rightdivimg p{
+    top: 40%;
+    width: 180px;
+}
+.image1{
+    width: 95%;
+    height: 200px;
+    cursor: pointer;
+}
+.image2{
+    width: 90%;
+    cursor: pointer;
+    height: 200px;
+}
+.image33 ,.image34,.image35{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image33 img,.image34 img ,.image35 img{
+    display: block;
+    transition: 0.3s ease-in-out;
+
+}
+
+.image33::before,.image34::before,.image35::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); 
+    transition: background-color 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 1;
+}
+.image35::before{
+    height: 95%;
+}
+.image34::before ,.image35::before{
+    width: 95%;
+}
+
+.image33:hover::before,.image34:hover::before,.image35:hover::before  {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.image33:hover p, .image34:hover p, .image35:hover p {
+    display: block;
+    z-index: 2; /* Ensure text is above the pseudo-element */
+}
+.image33:hover p, .image34:hover p, .image35:hover p {
+    display: block;
+}
+
+@media screen and (max-width:992px) {
+    .leftdivimg{
+        width: 97%;
+    }
+    .deliveryimages{
+        flex-direction: column;
+    }
+    .rightdivimg{
+        width: 90%;
+    }
+}
+@media screen and (max-width:576px) {
+    .leftdivimg,.deliveryimages{
+        gap: 20px;
+    }
+    .topdiv{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .image1,.image2{
+        width: 90%;
+    }
+}

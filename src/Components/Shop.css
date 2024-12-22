@@ -1,3 +1,4 @@
+
 .ShopPage1 {
     margin-top: 100px;
 }
@@ -31,6 +32,9 @@
     border: 2px solid rgb(130, 139, 178);
     border-radius: 5px;
 }
+.imgblock{
+    cursor: pointer;
+}
 .searchimg{
 position: absolute;
 top: 8px;
@@ -49,7 +53,6 @@ cursor: pointer;
     padding: 30px;
     padding-bottom: 200px;
 }
-
 .one h3 {
     font-size: 17px;
     margin-top: 20px;

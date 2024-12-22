@@ -1,8 +1,8 @@
 import React from 'react'
-import './AboutUsPage.css'
+import './AboutUs.css'
 import img from '../Assests/aboutpageshoes.jpg'
 
-function AboutUsPage() {
+function AboutUs() {
     return (
         <div className='aboutpage d-flex flex-lg-row flex-md-column flex-sm-column align-items-center justify-content-evenly'>
             <div className='abouttext'>
@@ -20,4 +20,4 @@ function AboutUsPage() {
     )
 }
 
-export default AboutUsPage
+export default AboutUs

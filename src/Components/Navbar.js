@@ -10,8 +10,8 @@ import img1 from '../Assests/img11.jpg'
 
 function Navbars() {
   const { state } = CartState();
-  const {statesm,dispatchsm} = useContext(MyContextsm);
-  const {cartlists, setCortLists } = useContext(Cartlists);
+  const { statesm, dispatchsm } = useContext(MyContextsm);
+  const { cartlists, setCortLists } = useContext(Cartlists);
   return (
     <>
       <Navbar expand="lg" className="bg-body-tertiary d-flex Navbar">
@@ -24,6 +24,7 @@ function Navbars() {
             <Nav className="ms-auto className='d-flex uldiv mt-2 me-5">
               <NavLink to="Home" className='uldiv1'>Home</NavLink>
               <NavLink to="Shop" className='uldiv1'>Shop</NavLink>
+              <NavLink to="NewItems" className='uldiv1'>New Items</NavLink>
               <NavLink to="About" className='uldiv1'>About</NavLink>
               <NavLink to="Contact" className='uldiv1'>Contact</NavLink>
             </Nav>
@@ -34,8 +35,8 @@ function Navbars() {
               </Dropdown.Toggle>
               <Dropdown.Menu className='cartone2 '>
                 <div >
-                  <CartList cartt={cartlists} carttmethod={setCortLists} dispatchsm={dispatchsm}/>
-                  <NavLink to="CartPage" style={{ marginLeft:cartlists.length ? "14px" : "7px" }}><button>Check Out</button></NavLink>
+                  <CartList cartt={cartlists} carttmethod={setCortLists} dispatchsm={dispatchsm} />
+                  <NavLink to="CartPage" style={{ marginLeft: cartlists.length ? "14px" : "7px" }}><button>Check Out</button></NavLink>
                 </div>
               </Dropdown.Menu>
             </Dropdown>
@@ -48,7 +49,7 @@ function Navbars() {
 
 export default Navbars
 
-export function CartList({cartt,carttmethod,dispatchsm}) {
+export function CartList({ cartt, carttmethod, dispatchsm }) {
 
   const handleDelete = (id) => {
     carttmethod((prev) => prev.filter((item) => item.id !== id));
